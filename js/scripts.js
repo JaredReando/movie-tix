@@ -88,7 +88,7 @@ $(document).ready(function() {
     myTicket.whichFilm();
     var cost = myTicket.price;
     ticketsSoldSoFar.addTicket();
-    $("p#showCost").append(title + " " + time + " $" + cost + ".00");
+    $("p#showCost").text(title + " " + time + " $" + cost + ".00");
 
   });
 });
